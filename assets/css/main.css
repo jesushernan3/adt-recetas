@@ -1,0 +1,112 @@
+/* GLOBALES */
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/RobotoCondensed-Light.ttf);
+}
+body {
+  background-color: #100e17;
+  font-family: Roboto, Candara, sans-serif;
+  color: #ddd;
+}
+main,
+footer {
+  padding: 10px;
+}
+main {
+  min-height: 400px;
+}
+footer {
+  min-height: 200px;
+}
+a {
+  color: #ddd;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* CONTENIDO */
+
+/* === Header */
+header {
+  border-bottom: 1px solid #333;
+}
+.nav-bar {
+  /* padding: 10px; */
+  display: flex;
+  min-height: 100px;
+}
+.nav-bar h1 {
+  width: 20%;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  width: 50%;
+}
+.main-nav ul {
+  display: flex;
+  width: 100%;
+}
+.main-nav ul li {
+  border-left: 1px solid #222;
+  display: flex;
+  flex: 1;
+}
+.main-nav ul li:last-child {
+  border-right: 1px solid #222;
+}
+
+.main-nav ul li a {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.main-nav ul li a:hover {
+  background-color: #201c2e;
+}
+
+/* caja de busqueda */
+.search-form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 28px;
+}
+.search-form:focus-within {
+  border: 3px solid aquamarine;
+}
+.search-box {
+  width: 30%;
+  color: aliceblue;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input[type="text"] {
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  border-radius: 28px 0 0 28px;
+}
+.boton-lupa {
+  border: none;
+  box-shadow: none;
+  background-color: #fff;
+  padding-right: 5px;
+  border-radius: 28px;
+}
+
+@media (max-width: 470px) {
+}
