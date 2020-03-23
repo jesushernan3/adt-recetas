@@ -7,7 +7,7 @@
 </div>
   
   <div class="contenedor-links-botones-grandes">
-      <a href="<?php echo $raiz?>vistas/recetas/recetas-crudas.php">crudas</a>
-      <a href="<?php echo $raiz?>vistas/recetas/recetas-cocinadas.php">cocinadas</a>
+      <a href="<?php echo $raiz?>vistas/recetas-crudas.php">crudas</a>
+      <a href="<?php echo $raiz?>vistas/recetas-cocinadas.php">cocinadas</a>
   </div>
 <?php include('../estructura/foot.php');?>

@@ -2,8 +2,8 @@
   <ul>
     <li><a href="<?php echo $raiz;?>vistas/recetas.php">Recetas</a>
       <ul>
-        <li><a href="<?php echo $raiz;?>vistas/recetas/recetas-crudas.php">Crudas</a></li>
-        <li><a href="<?php echo $raiz;?>vistas/recetas/recetas-cocinadas.php">Cocinadas</a></li>
+        <li><a href="<?php echo $raiz;?>vistas/recetas-crudas.php">Crudas</a></li>
+        <li><a href="<?php echo $raiz;?>vistas/recetas-cocinadas.php">Cocinadas</a></li>
       </ul>
     </li>
     <li><a href="<?php echo $raiz;?>vistas/categoria-css.php">Preparaciones</a>
@@ -14,7 +14,7 @@
         <li><a href="#">Cena</a></li>
       </ul>
     </li>
-    <li><a href="<?php echo $raiz;?>vistas/categoria-js.php">Recursos</a>
+    <li><a href="<?php echo $raiz;?>vistas/recursos.php">Recursos</a>
       <ul>
         <li><a href="#">Ingredientes</a></li>
         <li><a href="#">Teorias Nutricias</a></li>
@@ -23,6 +23,7 @@
         <li><a href="#">Viajes</a></li>
         <li><a href="#">Bibliografia</a></li>
         <li><a href="#">Multimedia</a></li>
+        <li><a href="<?php echo $raiz;?>vistas/recursos/recursos-ingredientes.php">Ingredientes</a></li>
       </ul>
     </li>
     <!-- <li><a href="#">Extras</a></li> -->

@@ -78,7 +78,6 @@ header {
   width: 100%;
 }
 .main-nav ul li {
-  /* border-left: 1px solid #222; */
   display: flex;
   flex: 1;
   position: relative;
@@ -92,9 +91,6 @@ header {
   top:100px;
   display: none;
   background-color: #111e2b;
-}
-.main-nav ul li:last-child {
-  /* border-right: 1px solid #222; */
 }
 
 .main-nav ul li a {
@@ -147,11 +143,11 @@ header {
   border-radius: 28px;
 }
 /* :::::::::: RECETAS:::::::::: */
-.contenedor-links-botones-grandes {
+.contenedor-links-botones-grandes, .contenedor-links-botones-medianos {
   display: flex;
   justify-content: center;
 }
-.contenedor-links-botones-grandes a {
+.contenedor-links-botones-grandes a, .contenedor-links-botones-medianos a {
 	display: flex;
 	width: 200px;
 	justify-content: center;
@@ -160,10 +156,12 @@ header {
 	align-items: center;
 	font-size: 2rem;
 	background: cadetblue;
-	border-radius: 10px;
-}
-.contenedor-links-botones-grandes a:first-child {
+  border-radius: 10px;
 	margin-right: 5px;
+}
+.contenedor-links-botones-medianos a {
+  width: 150px;
+  height: 200px;
 }
 .titulo-seccion {
   font-size: 2rem;

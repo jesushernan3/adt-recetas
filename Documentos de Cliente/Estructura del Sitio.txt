@@ -4,8 +4,26 @@ _Inicio
 
   • Recetas
   |— Crudo
+  \
+   |· Ensaladas
+   |· Desayunos
+   |· Aperitivos
+   |· Aderezos
+   |· Bebidas
+  /
   |— Cocinado
-
+  \
+   |· Pates
+   |· Pures
+   |· Salsas
+   |· Hamburguesas
+   |· Milanesas
+   |· Masas
+   |· Pastas
+   |· Tartas
+   |· Guisos
+   |· Postres
+  /
   • Preparaciones
   |- Desayunos
   |- Almuerzos
