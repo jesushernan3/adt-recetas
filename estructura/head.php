@@ -6,14 +6,14 @@
       name="viewport"
       content="with=device-with, initial-scale=1, maximum-scale=1"
     />
-    <title>Recursos</title>
+    <title>Alimentos De Transicion</title>
   <link rel="stylesheet" href="<?php echo $raiz;?>assets/css/main.css">
   </head>
   <body>
 
   <header>
     <div class="nav-bar">
-      <h1><a href="<?php echo $raiz;?>index.php">Recetas</a></h1>
+      <h1><a href="<?php echo $raiz;?>index.php">RECETAS</a></h1>
       <?php include('parciales/menu-principal.php');?>
       <div class="search-box">
         <form role="search" method="get" action="index.php" class="search-form">

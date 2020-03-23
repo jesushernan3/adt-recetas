@@ -1,4 +1,6 @@
-/* GLOBALES */
+/*================================
+ GLOBALES
+==================================*/
 * {
   margin: 0;
   padding: 0;
@@ -6,37 +8,55 @@
   text-decoration: none;
 }
 @font-face {
-  font-family: Roboto;
-  src: url(assets/fonts/Roboto/RobotoCondensed-Light.ttf);
+  font-family: "JosefinSans";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Abel";
+  src: url(../fonts/Abel-Regular.ttf);
 }
 body {
   background-color: #100e17;
-  font-family: Roboto, Candara, sans-serif;
+  font-family: Abel, Candara, sans-serif;
   color: #ddd;
 }
-main,
-footer {
-  padding: 10px;
-}
-main {
-  min-height: 400px;
-}
-footer {
-  min-height: 200px;
-}
+
 a {
   color: #ddd;
 }
 a:hover {
   text-decoration: underline;
 }
+.alineacion-centrado {
+  text-align: center;
+}
+.alineacion-izquierda {
+  text-align: left;
+}
+.alineacion-derecha {
+  text-align: right;
+}
 
-/* CONTENIDO */
+/*================================
+ CONTENIDO
+==================================*/
 
-/* === Header */
+/* :::::::::: MAIN:::::::::: */
+main {
+  background: #2b3e50;
+  min-height: 400px;
+  padding-bottom: 3rem;
+}
+
+/* :::::::::: HEADER:::::::::: */
+
 header {
   border-bottom: 1px solid #333;
+  background-color: #1c2935;
 }
+
+
+/*··························· Barra de Navegacion  */
 .nav-bar {
   /* padding: 10px; */
   display: flex;
@@ -58,12 +78,23 @@ header {
   width: 100%;
 }
 .main-nav ul li {
-  border-left: 1px solid #222;
+  /* border-left: 1px solid #222; */
   display: flex;
   flex: 1;
+  position: relative;
+}
+.main-nav ul li:hover ul {
+  display: block;
+}
+.main-nav ul ul {
+	display: block;
+  position: absolute;
+  top:100px;
+  display: none;
+  background-color: #111e2b;
 }
 .main-nav ul li:last-child {
-  border-right: 1px solid #222;
+  /* border-right: 1px solid #222; */
 }
 
 .main-nav ul li a {
@@ -71,13 +102,21 @@ header {
   flex: 1;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
+  color: #7fffd4;
+  font-size: 24px;
 }
 .main-nav ul li a:hover {
-  background-color: #201c2e;
+  background-color: #03383f;
 }
 
-/* caja de busqueda */
+.main-nav ul > li > ul > li {
+  height: 50px;
+}
+.main-nav ul > li > ul > li a {
+  font-size: 18px;
+}
+
+/*··························· Caja de Busqueda (search box)  */
 .search-form {
   display: flex;
   background-color: #fff;
@@ -107,6 +146,59 @@ header {
   padding-right: 5px;
   border-radius: 28px;
 }
+/* :::::::::: RECETAS:::::::::: */
+.contenedor-links-botones-grandes {
+  display: flex;
+  justify-content: center;
+}
+.contenedor-links-botones-grandes a {
+	display: flex;
+	width: 200px;
+	justify-content: center;
+	height: 300px;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2rem;
+	background: cadetblue;
+	border-radius: 10px;
+}
+.contenedor-links-botones-grandes a:first-child {
+	margin-right: 5px;
+}
+.titulo-seccion {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+/*================================
+ Footer
+==================================*/
+footer {
+  background: #1c2935;
+  padding: 0;
+  min-height: 200px;
+}
+.main-footer {
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.bottom-footer {
+  background: #0e1924;
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 470px) {
 }
+
+/* 
+
+Colores: 
+- Header bg: #1c2935
+- Footer bg: #1c2935
+- Main bg: #2b3e50
+
+
+*/

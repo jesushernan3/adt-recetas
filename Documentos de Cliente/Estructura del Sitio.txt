@@ -1,0 +1,23 @@
+...::: Estructura del Sitio :::...
+
+_Inicio
+
+  • Recetas
+  |— Crudo
+  |— Cocinado
+
+  • Preparaciones
+  |- Desayunos
+  |- Almuerzos
+  |- Meriendas
+  |- Cenas
+
+  • Recursos
+  |- Maternidad
+  |- Viajes
+  |- Teorias Nutrucias
+  |- Huerta
+  |- Bibliografia
+  |- Reciclaje
+  |- Ingredientes
+  |- Tarde/Noche

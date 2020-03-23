@@ -3,6 +3,6 @@
 $raiz="../../";
 include('../../estructura/head.php');?>
 
-  contenido viedo background
+<p>Contenido de recetas Cocidas</p>
 
 <?php include('../../estructura/foot.php');?>
