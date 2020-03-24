@@ -7,6 +7,8 @@
       content="with=device-with, initial-scale=1, maximum-scale=1"
     />
     <title>Alimentos De Transicion</title>
+
+  <link rel="stylesheet" href="<?php echo $raiz;?>assets/css/bulma.css">
   <link rel="stylesheet" href="<?php echo $raiz;?>assets/css/main.css">
   </head>
   <body>
