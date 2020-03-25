@@ -27,15 +27,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.alineacion-centrado {
-  text-align: center;
-}
-.alineacion-izquierda {
-  text-align: left;
-}
-.alineacion-derecha {
-  text-align: right;
-}
 
 /*================================
  CONTENIDO
@@ -51,7 +42,6 @@ main {
 /* :::::::::: HEADER:::::::::: */
 
 header {
-  border-bottom: 1px solid #333;
   background-color: #1c2935;
 }
 
@@ -62,7 +52,7 @@ header {
   display: flex;
   min-height: 100px;
 }
-.nav-bar h1 {
+.nav-bar .logo-principal {
   width: 20%;
   color: aliceblue;
   display: flex;

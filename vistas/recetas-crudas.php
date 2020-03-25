@@ -3,9 +3,9 @@
 $raiz="../";
 include('../estructura/head.php');?>
 
-<div class="alineacion-centrado">
-  <h1 class="titulo-seccion">RECETAS/CRUDAS</h1>
-</div>
+<section class="container">
+  
+<h1 class="title is-1">RECETAS CRUDAS</h1>
   
   <div class="contenedor-links-botones-medianos">
       <a href="<?php echo $raiz?>vistas/recetas/recetas-crudas-ensaladas.php">Ensaladas</a>
@@ -15,5 +15,6 @@ include('../estructura/head.php');?>
       <a href="<?php echo $raiz?>vistas/recetas/recetas-crudas.php">Sopas</a>
       <a href="<?php echo $raiz?>vistas/recetas/recetas-cocinadas.php">Bebidas</a>
   </div>
+</section>
 
 <?php include('../estructura/foot.php');?>

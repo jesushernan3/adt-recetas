@@ -2,12 +2,14 @@
   $raiz="../../";
   include('../estructura/head.php');
 ?>
-<div class="alineacion-centrado">
-  <h1 class="titulo-seccion">RECETAS</h1>
-</div>
+
+<!-- Nivel de Categoria -->
+<section class="container">
+  <h1 class="title">RECETAS</h1>
   
   <div class="contenedor-links-botones-grandes">
       <a href="<?php echo $raiz?>vistas/recetas-crudas.php">crudas</a>
       <a href="<?php echo $raiz?>vistas/recetas-cocinadas.php">cocinadas</a>
   </div>
+</section>
 <?php include('../estructura/foot.php');?>
