@@ -76,7 +76,9 @@ header {
 .articulo .hero {
   background-color: antiquewhite;
 }
-
+.hero-body {
+  background-image: url('../img/ensaladas/ceviche-champinones.jpg');
+}
 
 /*··························· Barra de Navegacion  */
 

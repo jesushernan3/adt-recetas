@@ -6,15 +6,18 @@
 
   <div class="articulo container">
       
+      <!-- Banner Titulo -->
       <div class="hero">
         <div class="hero-body">
-          <iv class="container">
+          <div class="container">
             <h1 class="title">
             Ceviche de Champiñones
             </h1>
-          </iv>
+          </div>
         </div>
       </div>
+      <!-- /Banner Titulo -->
+      
     
     <article>
       <section class="section">
