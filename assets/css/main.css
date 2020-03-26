@@ -73,12 +73,21 @@ header {
 }
 
 /* :::::::::: Vista ARTICULO :::::::::: */
-.articulo .hero {
+.articulo .hero.banner-titulo {
   background-color: antiquewhite;
+  height: 30rem;
 }
-.hero-body {
-  background-image: url('../img/ensaladas/ceviche-champinones.jpg');
+.articulo .banner-titulo .hero-body {
+  display: inherit;
+   background:url(../img/ensaladas/ceviche-champinones.jpg) no-repeat center right 5%;
+  background-size: contain;
 }
+.articulo .banner-titulo .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 
 /*··························· Barra de Navegacion  */
 

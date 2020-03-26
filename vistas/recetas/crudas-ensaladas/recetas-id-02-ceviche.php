@@ -7,7 +7,7 @@
   <div class="articulo container">
       
       <!-- Banner Titulo -->
-      <div class="hero">
+      <div class="hero banner-titulo">
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
