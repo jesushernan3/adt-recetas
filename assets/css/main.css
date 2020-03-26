@@ -71,6 +71,13 @@ header {
 .spacer {
   clear: left;
 }
+
+/* :::::::::: Vista ARTICULO :::::::::: */
+.articulo .hero {
+  background-color: antiquewhite;
+}
+
+
 /*··························· Barra de Navegacion  */
 
 
@@ -153,6 +160,10 @@ footer {
 @media (max-width: 470px) {
 }
 
+
+main > .container {              /************************************/
+  background-color: #5b5371;   /* PROVISORIO, SOLO PARA DESARROLLO */
+}                                /************************************/
 /* 
 
 Colores: 

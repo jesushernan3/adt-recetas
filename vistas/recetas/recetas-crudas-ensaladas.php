@@ -8,7 +8,7 @@ include('../../estructura/head.php');?>
     <h1 class="titulo-seccion">ENSALADAS</h1>
     
     <article class="card">
-      <a href="<?php echo $raiz?>vistas/recetas/recetas-id-02-ceviche.php">
+      <a href="<?php echo $raiz?>vistas/recetas/crudas-ensaladas/recetas-id-02-ceviche.php">
         <div class="card-image"><figure><img src="http://lorempixel.com/food/300/200" alt="#"></figure></div>
         <div class="card-header"><h3>Ceviche de Champiñones</h3></div>
         <div class="card-content">
