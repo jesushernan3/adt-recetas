@@ -1,7 +1,7 @@
 <?php 
 $raiz="../";
 include('../estructura/head.php');?>
-
+<main>
 <div class="categoria container">
   <section class="section">
     
@@ -106,5 +106,5 @@ include('../estructura/head.php');?>
   
   </section>
 </div>
-
+</main>
 <?php include('../estructura/foot.php');?>

@@ -2,6 +2,8 @@
 $raiz="../../";
 include('../estructura/head.php');?>
 
-  contenido de categoria js
+  <main>
+    contenido de categoria js
+  </main>
 
 <?php include('../estructura/foot.php');?>

@@ -36,9 +36,6 @@ main {
 
 /* :::::::::: HEADER:::::::::: */
 
-header {
-  background-color: #1c2935;
-}
 /* :::::::::: Vista CATEGORIA:::::::::: */
 .card .image {
   margin: 0 auto;
@@ -147,6 +144,7 @@ header {
 /*================================
  Footer
 ==================================*/
+
 footer {
   background: #1c2935;
   padding: 0;
@@ -165,13 +163,14 @@ footer {
   justify-content: center;
 }
 
+/*=================================
+  ========= MEDIA QUERIES =========
+  =================================*/
+
 @media (max-width: 470px) {
 }
 
 
-main > .container {              /************************************/
-  background-color: #5b5371;   /* PROVISORIO, SOLO PARA DESARROLLO */
-}                                /************************************/
 /* 
 
 Colores: 
@@ -179,5 +178,16 @@ Colores:
 - Footer bg: #1c2935
 - Main bg: #2b3e50
 
+/* Color Theme Swatches in Hex */
+.Orange-Teal-1-hex { color: #B25000; }
+.Orange-Teal-2-hex { color: #FF7300; }
+.Orange-Teal-3-hex { color: #ED5B00; }
+.Orange-Teal-4-hex { color: #0097B2; }
+.Orange-Teal-5-hex { color: #00D9FF; }
 
-*/
+/* Color Theme Swatches in RGBA */
+.Orange-Teal-1-rgba { color: rgba(177, 80, 0, 1); }
+.Orange-Teal-2-rgba { color: rgba(255, 115, 0, 1); }
+.Orange-Teal-3-rgba { color: rgba(255, 98, 0, 1); }
+.Orange-Teal-4-rgba { color: rgba(0, 151, 177, 1); }
+.Orange-Teal-5-rgba { color: rgba(0, 216, 255, 1); }

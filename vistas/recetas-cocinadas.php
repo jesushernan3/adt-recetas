@@ -3,8 +3,8 @@
 $raiz="../";
 include('../estructura/head.php');?>
 
+<main>
 <!-- Nivel de SubCategoria -->
-
 <section>
   <h1 class="titulo-seccion">RECETAS/COCINADAS</h1>
 
@@ -17,5 +17,5 @@ include('../estructura/head.php');?>
       <a href="<?php echo $raiz?>vistas/recetas/recetas-cocinadas.php">Bebidas</a>
   </div>
 </section>
-
+</main>
 <?php include('../estructura/foot.php');?>

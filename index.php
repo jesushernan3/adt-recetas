@@ -1,5 +1,4 @@
 <?php
-include_once("funciones/funciones-comunes.php");
 $meta_titulo="Bienvenidos a Index";
 $raiz="./";
   
