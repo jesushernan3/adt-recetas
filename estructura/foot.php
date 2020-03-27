@@ -1,4 +1,3 @@
-
 <footer>
   <div class="main-footer">
     contenido principal del futer

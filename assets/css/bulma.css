@@ -7459,7 +7459,8 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     background-color: transparent;
   }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #fafafa;
+    background-color: #B25000;
+    /*background-color: #fafafa;*/
   }
 }
 

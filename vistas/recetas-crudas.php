@@ -1,8 +1,10 @@
 <?php 
 $raiz="../";
 include('../estructura/head.php');?>
+
 <main>
-<div class="categoria container">
+
+  <div class="categoria container">
   <section class="section">
     
   <h1 class="title is-1">RECETAS CRUDAS</h1>
@@ -105,6 +107,7 @@ include('../estructura/head.php');?>
     
   
   </section>
-</div>
+  </div>
+  
 </main>
 <?php include('../estructura/foot.php');?>

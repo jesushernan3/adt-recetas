@@ -19,11 +19,11 @@
     
       <nav class="navbar container" role="navegation" aria-label="dropdown navigation">
 
-        <div class="navbar-brand"><a class="navbar-item" href="<?php echo $raiz;?>index.php">RECETAS</a></div>
+        <div class="navbar-brand"><a class="navbar-item" href="<?php echo $raiz;?>index.php">ALIMENTOS DE TRANSICIÓN<br>RECETAS</a></div>
 
         <?php include('parciales/menu-principal.php');?>
 
       </nav>
     
   </header>
-  <main>
+  
