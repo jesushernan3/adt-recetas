@@ -7,6 +7,7 @@ include('../estructura/head.php');?>
     
   <h1 class="title is-1">RECETAS CRUDAS</h1>
     
+    <!-- Links a Subcategorias -->
     <div class="columns">
 
         <div class="column is-one-fifth">
@@ -100,6 +101,8 @@ include('../estructura/head.php');?>
         </div>
 
     </div>
+    <!-- /Links a Subcategorias -->
+    
   
   </section>
 </div>

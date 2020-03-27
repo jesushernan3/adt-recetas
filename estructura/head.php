@@ -6,7 +6,9 @@
       name="viewport"
       content="with=device-with, initial-scale=1, maximum-scale=1"
     />
-    <title>Alimentos De Transicion</title>
+    <title>
+      <?php echo $meta_titulo;?>
+    </title>
 
   <link rel="stylesheet" href="<?php echo $raiz;?>assets/css/bulma.css">
   <link rel="stylesheet" href="<?php echo $raiz;?>assets/css/main.css">
@@ -17,7 +19,7 @@
     
       <nav class="navbar container" role="navegation" aria-label="dropdown navigation">
 
-        <div class="navbar-brand"><a href="<?php echo $raiz;?>index.php">RECETAS</a></div>
+        <div class="navbar-brand"><a class="navbar-item" href="<?php echo $raiz;?>index.php">RECETAS</a></div>
 
         <?php include('parciales/menu-principal.php');?>
 

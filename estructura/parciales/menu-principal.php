@@ -1,14 +1,14 @@
 <div class="navbar-menu navbar-start">
 
   <div class="navbar-item has-dropdown is-hoverable">
-      <a class="navbar-link">Recetas</a>
+      <a class="navbar-link is-arrowless">Recetas</a>
         <div class="navbar-dropdown">
           <a class="navbar-item" href="<?php echo $raiz;?>vistas/recetas-crudas.php">Crudas</a>
           <a class="navbar-item" href="<?php echo $raiz;?>vistas/recetas-cocinadas.php">Cocinadas</a>
         </div>
   </div>
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link" href="<?php echo $raiz;?>vistas/categoria-css.php">Preparaciones</a>
+    <a class="navbar-link is-arrowless" href="<?php echo $raiz;?>vistas/categoria-css.php">Preparaciones</a>
         <div class="navbar-dropdown">
           <a class="navbar-item">Desayunos</a>
           <a class="navbar-item">Almuerzos</a>
@@ -17,7 +17,7 @@
         </div>
   </div>
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link" href="<?php echo $raiz;?>vistas/recursos.php">Recursos</a>
+    <a class="navbar-link is-arrowless" href="<?php echo $raiz;?>vistas/recursos.php">Recursos</a>
         <div class="navbar-dropdown">
           <a href="<?php echo $raiz;?>vistas/recursos/recursos-ingredientes.php" class="navbar-item">Ingredientes</a>
           <a href="#" class="navbar-item">Teorias Nutricias</a>
