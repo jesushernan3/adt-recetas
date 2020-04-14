@@ -4,7 +4,7 @@
 ?>
 <main>
   <h1>
-  contenido recetas
+  contenido acerca
   </h1>
 </main>
 

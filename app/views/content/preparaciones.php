@@ -1,10 +1,10 @@
-<?php 
+<?php
   $raiz = '/';
   include '../includes/head.php';
 ?>
 <main>
   <h1>
-  contenido recetas
+  preparaciones
   </h1>
 </main>
 
