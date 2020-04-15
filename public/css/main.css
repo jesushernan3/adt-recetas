@@ -19,6 +19,12 @@
   font-weight: bolder;
   font-style: normal;
 }
+@font-face {
+  font-family: "Amatic";
+  src: url("../fonts/Amatic/AmaticSC-Regular.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
 body {
   font-family: 'Assistant';
 }
@@ -49,8 +55,9 @@ header {
 .brand {
   padding-left: 20px;
   line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 2em;
+  font-family: Amatic;
+  letter-spacing: 1px;
 }
 
 /*··························· Barra de Navegacion  */
@@ -66,10 +73,13 @@ nav ul li a:visited {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Assistant Bold';
+  letter-spacing: 1px;
+
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
   color: #804380;
+  background-color: #eee;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -79,9 +89,16 @@ nav ul li a:visited:not(:only-child):after {
 nav ul li ul li {
   min-width: 190px;
 }
+nav ul li ul {
+  position: relative;
+  background-color:   #312a24;
+}
 nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
+  background-color: #312a24;
+  color: #eee;
+  text-transform: capitalize;
 }
 
 .nav-dropdown {
@@ -95,7 +112,6 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: #262626;
   height: 70px;
   width: 70px;
 }
@@ -106,10 +122,23 @@ nav ul li ul li a {
 main {
   min-height: 50vh;
 }
+.hero .title, .hero .subtitle {
+  color: #eee;
+  font-family: Amatic;
+}
 /* :::::::::: Vista Home :::::::::: */
 #main-banner {
-  background: url(../img/main-hero-home.jpg) center no-repeat  no-repeat;
+  background: url(../img/main-hero-home.jpg) top no-repeat  no-repeat;
 }
+/* :::::::::: Categorias :::::::::: */
+.categories-banner-img {
+  background: url(../img/categories-hero.jpg) bottom no-repeat  no-repeat;
+
+}
+/* :::::::::: Articulos :::::::::: */
+
+
+
 
 /*================================
  FOOTER
@@ -137,7 +166,13 @@ main {
   .nav-mobile, header {
     display: block;
   }
- 
+  .nav-bar {
+    position: relative;
+    z-index: 100;
+  }
+  .nav-list {
+    background-color: #eee;
+  }
   .brand {
   float: left;
   }
@@ -159,6 +194,8 @@ main {
   }
   nav ul li ul li a {
     padding-left: 30%;
+    color: #312a24;
+    background-color: #ddd;
   }
 
   .nav-dropdown {
@@ -188,7 +225,7 @@ main {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #ffffff;
+  background: #312a24;
   position: absolute;
   display: block;
   content: '';

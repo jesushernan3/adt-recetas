@@ -6,18 +6,18 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
-      This is Home View
+      Alimentos de Transición
       </h1>
       <h2 class="subtitle">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam fuga officiis quisquam voluptas porro, omnis libero fugit mollitia quos esse. Ut in consequuntur earum esse maiores magnam. Atque, placeat qui
+        Mas alla de la informacion de alimentos
       </h2>
     </div>
   </div>
 </section>
-<main>
-  <h1>
-  
-  </h1>
+<main class="container">
+  <h2>
+  home subtitule
+  </h2>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam fuga officiis quisquam voluptas porro, omnis libero fugit mollitia quos esse. Ut in consequuntur earum esse maiores magnam. Atque, placeat qui.</p>
 </main>
 
