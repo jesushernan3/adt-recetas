@@ -1,7 +1,27 @@
 /*================================
  Estilos Generales
 ==================================*/
-
+@font-face {
+  font-family: "Assistant";
+  src: url("../fonts/Assistant/Assistant-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Assistant Semi Bold";
+  src: url("../fonts/Assistant/Assistant-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Assistant Bold";
+  src: url("../fonts/Assistant/Assistant-Bold.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+body {
+  font-family: 'Assistant';
+}
 a {
   color: #26201b;
   transition: all 0.3s ease;
@@ -44,11 +64,12 @@ nav ul li a:visited {
   padding: 0 20px;
   line-height: 70px;
   text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Assistant Bold';
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #26201b;
-  color: violet;
+  color: #804380;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -85,7 +106,10 @@ nav ul li ul li a {
 main {
   min-height: 50vh;
 }
-
+/* :::::::::: Vista Home :::::::::: */
+#main-banner {
+  background: url(../img/main-hero-home.jpg) center no-repeat  no-repeat;
+}
 
 /*================================
  FOOTER
@@ -204,7 +228,7 @@ article {
 
  Canvas: #fff
  Primordial: #312a24
- Secundario: violeta
+ Secundario: #804380
 
  fOOTER = 
    - parte alta #312a24
