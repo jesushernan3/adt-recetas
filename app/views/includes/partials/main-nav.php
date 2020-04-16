@@ -1,5 +1,5 @@
     <div class="brand">
-      <a href="/">RECETAS</a>
+      <a href="/">AdT - RECETAS</a>
     </div>
 
     <nav class="nav-bar" role="navigation">

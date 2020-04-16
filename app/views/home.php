@@ -2,7 +2,7 @@
   $raiz = '/';
   include 'includes/head.php';
 ?>
-<section id="main-banner" class="hero">
+<section id="main-banner" class="hero is-medium">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -15,10 +15,25 @@
   </div>
 </section>
 <main class="container">
-  <h2>
-  home subtitule
-  </h2>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam fuga officiis quisquam voluptas porro, omnis libero fugit mollitia quos esse. Ut in consequuntur earum esse maiores magnam. Atque, placeat qui.</p>
+  
+  <div class="section"><p>
+  Somos un portal de recetas donde entregamos ideas de cocina donde los protagonistas son vegetales, verduras y todo el universo de ingredientes de origen natural que no incluyen productos de origen animal.
+  </p>
+  <p>
+  <b>¿Recetas veganas o recetas vegetarianas?</b><br>
+  Sabemos que los conceptos no son iguales. Unas incluyen algunos derivados de origen animal (leche, huevos), sin embargo aquí en Vegrecetas encontrarás sólo recetas para veganos. Añadimos también el vegetarianismo a nuestro portal por que las opciones que tenemos también funcionan para todos quienes siguen esa dieta o estilo de vida.
+  </p>
+  <p>
+  Nos enfocamos en atender varios tipos de preparaciones, desde las más fáciles, sencillas y rápidas, hasta algo más complejo y gourmet, pasando por aperitivos, repostería, bebidas, platos principales, cocina internacional y muchos otros. Nuestra alimentación va más allá de comer sólo ensaladas y arroz, aquí te lo demostramos.
+  </p>
+  <p>
+  <b>Salud y Conciencia</b><br>
+  Cada una de nuestras preparaciones busca enriquecer tus alternativas de alimentación, aportando salud, felicidad y energía a tu organismo, pues estamos en pro del respeto hacía mundo animal utilizando como estilo de vida una dieta basada exclusivamente en productos de origen vegetal.
+  </p>
+  <p>
+  <b>Importante</b><br>
+  Respetamos totalmente a todas las personas, aquí no encontrarás criticas si eres omnívoro, mucho menos si estás iniciado tu camino al vegetarianismo, veganismo u otro, todo lo contrario, si tienes alguna duda estaremos dispuestos a ayudarte siempre, dentro de los conocimientos que nosotros tenemos.
+  </p></div>
 </main>
 
 <?php include 'includes/foot.php'; ?>
