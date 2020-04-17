@@ -217,6 +217,45 @@ main {
   background: url(../img/main-hero-home.jpg) top no-repeat no-repeat;
 }
 
+h3.after-title-icon {
+  font-size: 6rem;
+  display: block;
+  color: #312a24;
+
+}
+
+.after-title-icon::before {
+  content: '';
+  width: 209px;
+  height: 25px;
+  background-image: url(../img/icons/aftertitle.webp
+);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  position: absolute;
+  bottom: 1.8em;
+}
+
+.tile-links {
+  display: block;
+}
+
+.tile-links a {
+  font-size: 2rem;
+  padding-right: 5px;
+}
+
+.tile.has-text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 /* :::::::::: Categorias :::::::::: */
 .categories-banner-img {
   background: url(../img/categories-hero.jpg) bottom no-repeat no-repeat;
@@ -258,10 +297,12 @@ main {
   justify-content: center;
   color: #777;
 }
+
 .footer-bottom {
   background-color: #26201b;
   min-height: 40px;
 }
+
 .footer .title {
   font-family: Amatic;
   color: #aaa;
@@ -272,6 +313,7 @@ main {
 ==================================*/
 
 @media only screen and (max-width: 798px) {
+
   .nav-mobile,
   header {
     display: block;

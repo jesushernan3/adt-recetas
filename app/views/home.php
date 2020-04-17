@@ -14,11 +14,38 @@
     </div>
   </div>
 </section>
-<main class="container">
+<main class="container content">
+  <div class="section">
+    <h3>Bienvenidos a Recetas de Alimentos de Transición</h3>
+    <p>Podras encontran la varieda más amplia de recetas hacia una nueva aunque vieja tambien de alimentarse</p>
+  </div>
   <div class="hero">
-    <figure class="image is-half">
-      <img class="is-half" src="/public/img/collage-ensaladas.jpg" alt="">
-    </figure>
+    <div class="tile">
+      <div class="tile has-text">
+        <h3 class="after-title-icon">Recetas</h3>
+        <div class="tile-links">
+          <a href="content/recetas/recetas-crudas.php">Crudas</a>
+          <a href="content/recetas/recetas-cocidas.php">Cocidas</a>
+        </div>
+
+
+      </div>
+      <div class="tile">
+        <figure class="image is-half">
+          <img class="is-half" src="/public/img/collage-cocidas.jpg" alt="">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="tile">
+      <div class="tile">
+        <figure class="image is-half">
+          <img class="is-half" src="/public/img/collage-ensaladas.jpg" alt="">
+        </figure>
+      </div>
+      <div class="tile">Recetas ensaldas</div>
+    </div>
   </div>
 
   <div class="section">
