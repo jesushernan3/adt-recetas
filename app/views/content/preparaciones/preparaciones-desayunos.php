@@ -21,7 +21,7 @@
 
   <div class="columns">
 
-    <div class="column is-one-third">
+  <div class="column is-one-third">
       <a class="section" href="desayuno/01.preparaciones-galletas_avena.php">
         <div class="card">
           <div class="card-image">
@@ -31,11 +31,9 @@
             </figure>
           </div>
           <div class="card-content">
-            <h3 class="title">Galletas de avena y plata</h3>
+            <h3 class="title">Articulos</h3>
             <div class="content">
-              Otra rica preparación utilizando avena como ingrediente principal. Hace un tiempo ya compartimos una
-              receta de galletas con avena y zanahoria, en esta oportunidad utilizaremos plátano (o banana) como
-              acompañante a este gran ingrediente que aporta muchísima energía a nuestro cuerpo....
+              sinopsis de articulo
             </div>
           </div>
         </div>
@@ -52,11 +50,9 @@
             </figure>
           </div>
           <div class="card-content">
-            <h3 class="title">Galletas de avena y plata</h3>
+            <h3 class="title">Articulos</h3>
             <div class="content">
-              Otra rica preparación utilizando avena como ingrediente principal. Hace un tiempo ya compartimos una
-              receta de galletas con avena y zanahoria, en esta oportunidad utilizaremos plátano (o banana) como
-              acompañante a este gran ingrediente que aporta muchísima energía a nuestro cuerpo....
+              sinopsis de articulo
             </div>
           </div>
         </div>
@@ -73,11 +69,9 @@
             </figure>
           </div>
           <div class="card-content">
-            <h3 class="title">Galletas de avena y plata</h3>
+            <h3 class="title">Articulos</h3>
             <div class="content">
-              Otra rica preparación utilizando avena como ingrediente principal. Hace un tiempo ya compartimos una
-              receta de galletas con avena y zanahoria, en esta oportunidad utilizaremos plátano (o banana) como
-              acompañante a este gran ingrediente que aporta muchísima energía a nuestro cuerpo....
+              sinopsis de articulo
             </div>
           </div>
         </div>

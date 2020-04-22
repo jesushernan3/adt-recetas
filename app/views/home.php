@@ -24,11 +24,9 @@
       <div class="tile has-text">
         <h3 class="after-title-icon">Recetas</h3>
         <div class="tile-links">
-          <a href="content/recetas/recetas-crudas.php">Crudas</a>
-          <a href="content/recetas/recetas-cocidas.php">Cocidas</a>
+          <a href="app/views/content/recetas/recetas-crudas.php">Crudas</a>
+          <a href="app/views/content/recetas/recetas-cocidas.php">Cocidas</a>
         </div>
-
-
       </div>
       <div class="tile">
         <figure class="image is-half">
@@ -44,7 +42,17 @@
           <img class="is-half" src="/public/img/collage-ensaladas.jpg" alt="">
         </figure>
       </div>
-      <div class="tile">Recetas ensaldas</div>
+      <div class="tile">
+      <div class="tile has-text">
+        <h3 class="after-title-icon">Preparaciones</h3>
+        <div class="tile-links">
+          <a href="app/views/content/preparaciones/preparaciones-desayunos.php">Desaynos</a>
+          <a href="app/views/content/preparaciones/preparaciones-almuerzos.php">Almuerzos</a>
+          <a href="app/views/content/preparaciones/preparaciones-meriendas.php">Merienda</a>
+          <a href="app/views/content/preparaciones/preparaciones-cenas.php">Cenas</a>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 

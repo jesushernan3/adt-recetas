@@ -1,0 +1,41 @@
+...::: Estructura del Sitio :::...
+
+_Inicio
+
+  • Recetas
+  |— Crudo
+  \
+   |· Ensaladas
+   |· Desayunos
+   |· Aperitivos
+   |· Aderezos
+   |· Bebidas
+  /
+  |— Cocinado
+  \
+   |· Pates
+   |· Pures
+   |· Salsas
+   |· Hamburguesas
+   |· Milanesas
+   |· Masas
+   |· Pastas
+   |· Tartas
+   |· Guisos
+   |· Postres
+  /
+  • Preparaciones
+  |- Desayunos
+  |- Almuerzos
+  |- Meriendas
+  |- Cenas
+
+  • Recursos
+  |- Maternidad
+  |- Viajes
+  |- Teorias Nutrucias
+  |- Huerta
+  |- Bibliografia
+  |- Reciclaje
+  |- Ingredientes
+  |- Tarde/Noche

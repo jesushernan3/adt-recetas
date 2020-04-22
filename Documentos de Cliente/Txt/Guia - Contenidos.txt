@@ -1,0 +1,45 @@
+...::: Guía - Contenido Recetas :::...
+
+El elemento base para administrar contenido de forma organizada y prolija es la organización de l misma. Que consiste en:
+
+/* Receta
+=============*/
+
+1· Descripción
+2· Listado de ingredientes
+3· Lista de pasos y procesos
+
+
+Opcionales:
+
+4· Fotos de la preparacion
+5· Informacion acerca de los ingredientes
+6· Informacion para uso ayurvedico de la preparacion
+7· Utenzilios necesarios
+
+EJEMPLO:
+
+* Titulo: Guiso de Garbanzos con Espinacas
+  
+* Descripción: 
+  En esta oportunidad presentamos una receta de cocina vegetariana y vegana super sencilla y llena de proteínas y nutrientes esenciales para nuestro organismo. Esta receta trae una vez más como protagonista a los garbanzos, fuente primordial de hierro y proteínas para mantener nuestro cuerpo con energías y buena salud. ¡manos a la cocina!.
+
+* Listado de Ingredientes:
+  • 1 Taza de Garbanzos Cocidos
+  • 500 gramos de Espinacas
+  • 1 Rebanada de Pan
+  • 1 Cebolla
+  • 4 Dientes de Ajo
+  • 2 Hojas de Laurel
+  • 1 Pimiento Rojo Dulce (Chile Dulce)
+  • Comino
+  • Sal
+
+* Lista de pasos y procesos:
+  • La preparación de esta comida vegetariana es muy sencilla, primero tomaremos el sartén y agregaremos un poco de aceite, para saltear la cebolla y los dientes de ajo previamente picados. Una vez que veamos que esto está bien dorado, agregamos la rebanada de pan, dejamos cocinar un minuto y finalmente agregamos también el pimiento o chile dulce y además agregamos un poco de comino y sal.
+
+  • Ahora con todo esto cocinado y mezclado, lo llevaremos a la batidora (licuadora) y lo dejaremos batir por un minuto a velocidad media. Reservar la mezcla.
+
+  • Por otro lado, en otra sartén, saltearemos las espinacas previamente cocidas, y una vez listo pasaremos a una olla, donde también sumaremos los garbanzos cocidos y la mezcla anterior que pasamos por la batidora. Todo esto lo dejaremos cocinar unos 10 minutos, añadiendo además media taza de agua y las hojas de laurel.
+
+  • Una vez todo listo servir de inmediato, para su consumo bien caliente.

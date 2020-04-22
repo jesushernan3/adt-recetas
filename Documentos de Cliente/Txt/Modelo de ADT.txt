@@ -1,0 +1,18 @@
+...::: Modelo del sitio ADT :::...
+
+/* :::::::::: Vistas :::::::::: */
+
+* Principal
+* Categoria
+* Subcategoria
+* Articulo
+* Resultado de busqueda
+* Contacto
+
+/* :::::::::: Componentes :::::::::: */
+
+  — Menu Pricipal
+  — Botonera de redes sociales
+  — Botonera de Subcategorias
+  — Seleccionador de articulos
+  — Formulario
