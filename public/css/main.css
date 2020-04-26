@@ -29,7 +29,24 @@
   font-style: normal;
 }
 @font-face {
-  font-family: serif;
+  font-family: caveat;
+  src: url('../fonts/Caveat/Caveat-Regular.ttf');
+}
+@font-face {
+  font-family: indieflower;
+  src: url('../fonts/Indie_Flower/IndieFlower-Regular.ttf');
+}
+@font-face {
+  font-family: permanentmarker;
+  src: url('../fonts/PermanentMarker-Regular.ttf');
+}
+@font-face {
+  font-family: shadows;
+  src: url('../fonts/ShadowsIntoLight-Regular.ttf');
+}
+@font-face {
+  font-family: noto;
+  src: url('../fonts/Noto/NotoSerif-Regular.ttf');
 }
 
 body {
@@ -54,7 +71,7 @@ h6,
 .content h4,
 .content h5,
 .content h6 {
-  font-family: "Amatic";
+  font-family: "caveat", sans-serif;
   color: #f98b60;
 }
 
